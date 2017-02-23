@@ -1,0 +1,87 @@
+*{
+    border:0;
+    padding:0;
+    margin:0;
+}
+section{
+    width: 300px;
+    height: 420px;
+    background-color: hsl(220,15%,10%);
+}
+header{
+    font-size: 25px;
+    color: aliceblue;
+    background-color: black;
+}
+#show{
+    width: 300px;
+    height: 60px;
+    background:linear-gradient(gainsboro,ghostwhite,gainsboro);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+    color: black;
+    border-radius: 0;
+    cursor: auto;
+}
+input{
+    width:60px;
+    height: 40px;
+    margin: 10px 4px;
+    border-radius: 5px;
+    background :linear-gradient(gainsboro  ,hsl(20,40%,40%) 40% );
+    color: white;
+    font-size: 25px;
+    cursor:pointer  /*手指样式*/
+}
+#zero{
+    width: 136px;
+}
+#equal{
+    height: 100px;
+    float: right;
+    margin-right: 8px;
+    background :linear-gradient(papayawhip ,darkorange 40% );
+}
+.NumberInputStyle{
+    color: white;
+    background :linear-gradient(gainsboro,black 40%);
+}
+
+#previse{
+    width: 300px;
+    height: 20px;
+    background:linear-gradient(gainsboro,ghostwhite,gainsboro);
+    font-size: 10px;
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+    color: darkblue;
+    border-radius: 0;
+    cursor: auto;
+}
+#symbol{
+    width: 300px;
+    height: 22px;
+    background:linear-gradient(gainsboro,ghostwhite,gainsboro);
+    font-size: 10px;
+    font-weight: 600;
+    text-align: right;
+    margin: 0;
+    color: darkblue;
+    border-radius: 0;
+    cursor: auto;
+}
+h6{
+    display: inline;
+    font-size: 16px;
+    line-height: normal;
+    float:right;
+}
+p{
+    font-size: 14px;
+    display: inline;
+    line-height: normal;
+    float: left;
+}
