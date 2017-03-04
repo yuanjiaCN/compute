@@ -5,7 +5,7 @@ function changeColor() {
         if ((!isNaN(NumberInput[i].value))||(NumberInput[i].value == ".")){
             NumberInput[i].setAttribute("class","NumberInputStyle") ;
         }
-            }
-        }
+    }
+}
 
 addLoadEvent(changeColor);

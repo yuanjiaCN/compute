@@ -132,11 +132,11 @@ function Compute() {
             SymbolInput.value = " ";
             ShowInput.value = 0;
             PrevisePreviseInput = null;
-       }
+        }
         //百分比符号，暂时没想到比较好的实现方法，先将就一下。。。
         PercentageInput.onclick = function () {
             ShowInput.value = Number(ShowInput.value)/100;
         }
     }
- }
+}
 addLoadEvent(Compute);
